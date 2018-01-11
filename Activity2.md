@@ -1,9 +1,9 @@
 Activity 2 - Seaspan Scheduling Visualization
 =============================================
 
-Our design for this problem is a bar chart visualization of the sailing times of each route as the x axis the average load as the y axis, each bar is coloured to signify the different vessels. There would be options to toggle one or many different routes which can be overlayed to show the vessels that span different routes and also options for changing the time period that is used to calculate the average load. 
+The design for this problem requires visualization of the sailing schedules showing the average load of each vessel. There should be options to toggle one or many of the 3 different routes which can be overlayed to show the vessels load/availability that span different routes and also options for changing the time period that is used to calculate the average load. 
 
-We will assume there is recent and accurate load data available dating back several months or years. 
+We will assume there is recent and accurate load data available dating back several months or years.
 
 ## What
 
@@ -17,9 +17,13 @@ Data:
 
 ## Why
 
-Action: 
+*Action: 
+To Analyze -> consume -> discover
+    - Tool will be presenting data to discover patterns and correlations between average load on route schedules. And the  
 
-* Analyze 
-    - Tool will be presenting data to discover patterns and correlations between average load on route schedules 
+*Target:
+To **correlate** many **attributes**
+    - The user needs to derive a correlation between sailings and average load in order to adapt the schedule.
+    
+## How
 
-Target:
