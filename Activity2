@@ -1,0 +1,20 @@
+## Assumptions
+
+- We have load data for each sailing over period of time 
+
+## What
+
+Data:
+
+- Vessels 
+- Routes 
+- Departure and arrival time 
+
+## Why
+
+Action: 
+
+- Analyze 
+    - Tool will be presenting data to discover patterns and correlations between average load on route schedules 
+
+Target:
