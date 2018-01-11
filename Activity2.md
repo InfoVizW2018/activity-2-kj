@@ -27,3 +27,6 @@ To **correlate** many **attributes**
     
 ## How
 
+A schedule view with day of the week on the x axis and time of day on the y axis. Sailings would be represented by a block in the calendar colored with one of the 3 colors used in the example schedule: pink for Tillbury-Nanaimo, green for Surry-Duke Pt. and yellow for Tillbury-Swartz Bay. The colored bar (sailing) is then filled partially (or fully) representing the load. Interactive tools (toggles or buttons) would filter the visualization according to vessel, route and time span used for calculating the average load for that sailing.
+
+This representation allows the viewer to discover correlated data and filter to the desired items and attribute in order to successfully discover overlaps and construct a new schedule. Manual control over the schedule has not been addressed fully, but with the information available, a edit feature could be added for the user to add and remove sailings and be able to visualize how they would fit into the current live schedule. 
