@@ -1,6 +1,6 @@
-## Assumptions
+Our design for this problem is a 'schedule view' calendar style visualization of each route with a bar chart for each sailing that displays average load. There would be options to toggle to different routes and for changing the duration that is used to calculate the average load. 
 
-- We have load data for each sailing over period of time 
+We will assume there is recent and accurate load data available dating back several months or years. 
 
 ## What
 
