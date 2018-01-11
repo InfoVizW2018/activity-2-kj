@@ -1,7 +1,7 @@
 Activity 2 - Seaspan Scheduling Visualization
 =============================================
 
-Our design for this problem is a 'schedule view' calendar style visualization of each route with a bar chart for each sailing that displays average load. There would be options to toggle to different routes and for changing the duration that is used to calculate the average load. 
+Our design for this problem is a bar chart visualization of the sailing times of each route as the x axis the average load as the y axis, each bar is coloured to signify the different vessels. There would be options to toggle one or many different routes which can be overlayed to show the vessels that span different routes and also options for changing the time period that is used to calculate the average load. 
 
 We will assume there is recent and accurate load data available dating back several months or years. 
 
@@ -9,9 +9,11 @@ We will assume there is recent and accurate load data available dating back seve
 
 Data:
 
-* Vessels 
-* Routes 
-* Departure and arrival time 
+* Vessels: These are **items**.
+* Schedule: This is the **item** made up of routes and sailing times.
+* Routes: These are **categorical attributes** of a schedule.
+* Departure and arrival (sailing) times: These are **cyclic** and **quantitative ordered attributes** of the schedule.
+* Load for each sailing: **quantitative, sequential ordered attributes** of a vessel.
 
 ## Why
 
