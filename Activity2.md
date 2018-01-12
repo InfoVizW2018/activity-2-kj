@@ -31,7 +31,7 @@ A schedule view with day of the week on the x axis and time of day on the y axis
 
 This representation allows the viewer to discover correlated data and filter to the desired items and attribute in order to successfully discover overlaps and construct a new schedule. Manual control over the schedule has not been addressed fully, but with the information available, a edit feature could be added for the user to add and remove sailings and be able to visualize how they would fit into the current live schedule. 
 
-## Design Studey Methodology
+## Design Study Methodology
 * **Learn**:
 Absorb the current information visualization literature, best practices, and guidelines from academia and industry.
 * **Winnow**:
@@ -51,7 +51,7 @@ Reflect on how the design study relates to the current visualization literature.
 * **Write**:
 Clearly lay out the design study in a paper. Follow a logical thread of the design journey.
 
-## Pitfalls
+## Design Study Pitfalls
 * PF-2: Insufficient knowledge of vis literature. 
 Since we are just beginning to dive into information visualization and design, we do not have a full understanding of the current visualization literature.
 * PF4: No real data available.
