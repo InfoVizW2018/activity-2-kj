@@ -10,6 +10,7 @@ We will assume there is recent and accurate load data available dating back seve
 Data:
 
 * Vessels: These are **items**.
+* Berths: These are **items**.
 * Schedule: This is the **item** made up of routes and sailing times.
 * Routes: These are **categorical attributes** of a schedule.
 * Departure and arrival (sailing) times: These are **cyclic** and **quantitative ordered attributes** of the schedule.
@@ -27,7 +28,9 @@ To **correlate** many **attributes**
     
 ## How
 
-A schedule view with day of the week on the x axis and time of day on the y axis. Sailings would be represented by a block in the calendar colored with one of the 3 colors used in the example schedule: pink for Tillbury-Nanaimo, green for Surry-Duke Pt. and yellow for Tillbury-Swartz Bay. The colored bar (sailing) is then filled partially (or fully) representing the load. Interactive tools (toggles or buttons) would filter the visualization according to vessel, route and time span used for calculating the average load for that sailing.
+A schedule view with day of the week on the x axis and time of day on the y axis. Sailings would be represented by a block in the calendar colored with one of 3 colors: purple for Tillbury-Nanaimo, green for Surry-Duke Pt. and blue for Tillbury-Swartz Bay. The colored bar (sailing) is then filled partially (or fully) representing the load. Interactive tools (toggles or buttons) would filter the visualization according to vessel, route and time span used for calculating the average load for that sailing. This view can be seen in **Ferry Schedule Design Activity 2.pdf**
+
+Another view is a daily view that demonstrates vessel and berth availablity. The vessel and berth items are the rows of the schedule table and the time of day as the horizontal header. Here, the routes are indicated by the colored bars and the load information based on the percentage of fill for each bar. The berth availablilty is demonstrated with a red bar that indicates when a berth is occupied by a vessel. The availability for a berth is then shown as the free times. This view can be seen in **Vessel and Berth Day View.pdf**
 
 This representation allows the viewer to discover correlated data and filter to the desired items and attribute in order to successfully discover overlaps and construct a new schedule. Manual control over the schedule has not been addressed fully, but with the information available, a edit feature could be added for the user to add and remove sailings and be able to visualize how they would fit into the current live schedule. 
 
@@ -54,8 +57,8 @@ Clearly lay out the design study in a paper. Follow a logical thread of the desi
 ## Design Study Pitfalls
 * PF-2: Insufficient knowledge of vis literature. 
 Since we are just beginning to dive into information visualization and design, we do not have a full understanding of the current visualization literature.
-* PF4: No real data available.
- Data given initially was in a table showing the ferry schedules and routes. We were missing load information for the vessels which is a pitfall as we would require some historical or current load level data to meet the requirements. 
+* PF-4: No real data available.
+ Data given initially was in a table showing the ferry schedules and routes. We were missing load information and the berth names. We would require some historical or current load level data to meet the requirements. 
 * PF-11 : No rapport with collaborators.
  To avoid this pitfall, we would need to put a genuine effort to build rapport with the collaborators.
 * PF-5: Insufficient time available from potential collaborators.
