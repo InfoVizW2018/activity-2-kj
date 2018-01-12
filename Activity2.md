@@ -32,31 +32,31 @@ A schedule view with day of the week on the x axis and time of day on the y axis
 This representation allows the viewer to discover correlated data and filter to the desired items and attribute in order to successfully discover overlaps and construct a new schedule. Manual control over the schedule has not been addressed fully, but with the information available, a edit feature could be added for the user to add and remove sailings and be able to visualize how they would fit into the current live schedule. 
 
 ## Design Studey Methodology
-*Learn:
+* Learn:
 Absorb the current information visualization literature, best practices, and guidelines from academia and industry.
-*Winnow:
+* Winnow:
 Establish a broad range of meeting with SEASPAN to identify the most promising collaborations. The actual users of the tool, the ferry schedule managers, would be met with.to start. During the initial meetings, time commitment, data availability, and problem definition would be discussed.
-*Cast: 
+* Cast: 
 Front-line analyst would be the domain expert end user and the gate keeper would be the stakeholders. Other additional roles should be considered such as Connectors, Translators, and Co-authors.
-*Discover:
+* Discover:
 Characterize the problem and develop requirements for the tools through abstraction. This would involve using the contextual inquiries observation method where we would observe the user working in the real world with the existing tools and interrupt to ask questions.
-*Design:
+* Design:
 After reaching a shared understanding of a problem with the domain expert, begin designing a visualization solution.
-*Implement:
+* Implement:
 Create a prototype through rapid software prototyping.
-*Deploy:
+* Deploy:
 Deploy the tool and gather feedback from the user in real world. This will determine whether the domain experts were helped by the new solution.
-*Reflect:
+* Reflect:
 Reflect on how the design study relates to the current visualization literature. Could this design study add something to the previously proposed visualization design guidelines?
-*Write:
+* Write:
 Clearly lay out the design study in a paper. Follow a logical thread of the design journey.
 
 ## Pitfalls
-*PF-2: Insufficient knowledge of vis literature
+* PF-2: Insufficient knowledge of vis literature
 Since we are just beginning to dive into information visualization and design, we do not have a full understanding of the current visualization literature.
-*PF4: No real data available
+* PF4: No real data available
 Data given initially was in a table showing the ferry schedules and routes. We were missing load information for the vessels which is a pitfall as we would require some historical or current load level data to meet the requirements. 
-*PF-11 : No rapport with collaborators
+* PF-11 : No rapport with collaborators
 To avoid this pitfall, we would need to put a genuine effort to build rapport with the collaborators.
-*PF-5: Insufficient time available from potential collaborators
+* PF-5: Insufficient time available from potential collaborators
 We would need to ensure the potential collaborators and us as the visualization researchers can commit significant time to for the research activities.
