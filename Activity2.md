@@ -1,6 +1,8 @@
 Activity 2 - Seaspan Scheduling Visualization
 =============================================
 
+By Jason Sanche and Kathy Do
+
 The design for this problem requires visualization of the sailing schedules showing the average load of each vessel. There should be options to toggle one or many of the 3 different routes which can be overlayed to show the vessels load/availability that span different routes and also options for changing the time period that is used to calculate the average load. 
 
 We will assume there is recent and accurate load data available dating back several months or years.
@@ -30,33 +32,33 @@ To **correlate** many **attributes**
 
 A schedule view with day of the week on the x axis and time of day on the y axis. Sailings would be represented by a block in the calendar colored with one of 3 colors: purple for Tillbury-Nanaimo, green for Surry-Duke Pt. and blue for Tillbury-Swartz Bay. The colored bar (sailing) is then filled partially (or fully) representing the load. Interactive tools (toggles or buttons) would filter the visualization according to vessel, route and time span used for calculating the average load for that sailing. This view can be seen in **Ferry Schedule Design Activity 2.pdf**
 
-Another view is a daily view that demonstrates vessel and berth availablity. The vessel and berth items are the rows of the schedule table and the time of day as the horizontal header. Here, the routes are indicated by the colored bars and the load information based on the percentage of fill for each bar. The berth availablilty is demonstrated with a red bar that indicates when a berth is occupied by a vessel. The availability for a berth is then shown as the free times. This view can be seen in **Vessel and Berth Day View.pdf**
-
 This representation allows the viewer to discover correlated data and filter to the desired items and attribute in order to successfully discover overlaps and construct a new schedule. Manual control over the schedule has not been addressed fully, but with the information available, a edit feature could be added for the user to add and remove sailings and be able to visualize how they would fit into the current live schedule. 
+
+Another view is a daily view that demonstrates vessel and berth availablity. The vessel and berth items are the rows of the schedule table and the time of day as the horizontal header. Here, the routes are indicated by the colored bars and the load information based on the percentage of fill for each bar. The berth availablilty is demonstrated with a red bar that indicates when a berth is occupied by a vessel. The availability for a berth is then shown as the free times. This view can be seen in **Vessel and Berth Day View.pdf**
 
 ## Design Study Methodology
 * **Learn**:
 Absorb the current information visualization literature, best practices, and guidelines from academia and industry.
 * **Winnow**:
-Establish a broad range of meeting with SEASPAN to identify the most promising collaborations. The actual users of the tool, the ferry schedule managers, would be met with.to start. During the initial meetings, time commitment, data availability, and problem definition would be discussed.
+Establish a broad range of meetings with SEASPAN to identify the most promising collaborations. The actual users of the tool, the ferry schedule managers, would be met with.to start. During the initial meetings, time commitment, data availability, and problem definition would be discussed.
 * **Cast**: 
-Front-line analyst would be the domain expert end user and the gate keeper would be the stakeholders. Other additional roles should be considered such as Connectors, Translators, and Co-authors.
+Front-line analyst would be the domain expert end user and the gate keeper would be the stakeholder(s). Other additional roles should be considered such as Connectors, Translators, and Co-authors.
 * **Discover**:
 Characterize the problem and develop requirements for the tools through abstraction. This would involve using the contextual inquiries observation method where we would observe the user working in the real world with the existing tools and interrupt to ask questions.
 * **Design**:
 After reaching a shared understanding of a problem with the domain expert, begin designing a visualization solution.
 * **Implement**:
-Create a prototype through rapid software prototyping.
+Create a prototype (rapid software prototyping)
 * **Deploy**:
 Deploy the tool and gather feedback from the user in real world. This will determine whether the domain experts were helped by the new solution.
-* **Reflec**t:
+* **Reflect**:
 Reflect on how the design study relates to the current visualization literature. Could this design study add something to the previously proposed visualization design guidelines?
 * **Write**:
-Clearly lay out the design study in a paper. Follow a logical thread of the design journey.
+Clearly lay out the design study in a paper. Follow a logical thread of the design journey
 
 ## Design Study Pitfalls
 * PF-2: Insufficient knowledge of vis literature. 
-Since we are just beginning to dive into information visualization and design, we do not have a full understanding of the current visualization literature.
+Since we have just been introduced to information visualization and design, we do not have a full understanding of the current visualization literature.
 * PF-4: No real data available.
  Data given initially was in a table showing the ferry schedules and routes. We were missing load information and the berth names. We would require some historical or current load level data to meet the requirements. 
 * PF-11 : No rapport with collaborators.
